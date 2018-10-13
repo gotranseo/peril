@@ -1,6 +1,7 @@
 {
   "rules": {
     "issue_comment": "dangerfiles/markAsMergeOnGreen.ts",
-    "status.success": "dangerfiles/mergeOnGreen.ts"
+    "status.success": "dangerfiles/mergeOnGreen.ts",
+    "pull_request.opened": "dangerfiles/pr.ts"
   }
 }
