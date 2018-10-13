@@ -1,5 +1,6 @@
 {
   "rules": {
-    "pull_request": "gotranseo/peril@dangerfiles/pr.js"
+    "issue_comment": "dangerfiles/markAsMergeOnGreen.ts",
+    "status.success": "dangerfiles/mergeOnGreen.ts"
   }
 }
