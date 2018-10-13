@@ -3,8 +3,6 @@ import { Status } from "github-webhook-event-types"
 import { LabelLabel } from "github-webhook-event-types/source/Label"
 
 export const rfc10 = async (status: Status) => {
-  console.log("Test");
-  
   const api = danger.github.api
 
   if (status.state !== "success") {
@@ -38,6 +36,7 @@ export const rfc10 = async (status: Status) => {
     }
 
     // Merge the PR
+    console.log("Test 2");
     await api.pullRequests.merge({ owner, repo, number, commit_title: `Merge pull request #${number} by Peril` })
     //TODO: - Delete the branch
     console.log(`Merged Pull Request ${number}`)
