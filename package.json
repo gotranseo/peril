@@ -1,0 +1,22 @@
+{
+  "name": "transeo-peril",
+  "version": "1.0.0",
+  "description": "Transeo Peril settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotranseo/peril.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gotranseo/peril/issues"
+  },
+  "homepage": "https://github.com/gotranseo/peril#readme",
+  "dependencies": {
+    "github-webhook-event-types": "^1.2.1"
+  }
+}
