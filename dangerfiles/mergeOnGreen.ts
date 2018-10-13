@@ -3,6 +3,8 @@ import { Status } from "github-webhook-event-types"
 import { LabelLabel } from "github-webhook-event-types/source/Label"
 
 export const rfc10 = async (status: Status) => {
+  console.log("Test");
+  
   const api = danger.github.api
 
   if (status.state !== "success") {
