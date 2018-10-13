@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gotranseo/peril#readme",
   "dependencies": {
+    "danger": "^4.4.8",
     "github-webhook-event-types": "^1.2.1"
   }
 }
