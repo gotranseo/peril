@@ -36,8 +36,8 @@ export const rfc10 = async (status: Status) => {
     }
 
     // Merge the PR
-    console.log("Test 2");
     await api.pullRequests.merge({ owner, repo, number, commit_title: `Merge pull request #${number} by Peril` })
+    console.log("Test 3");
     //TODO: - Delete the branch
     console.log(`Merged Pull Request ${number}`)
   }
